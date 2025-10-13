@@ -1,0 +1,12 @@
+We’re doing a Shipd/Mars solver run.
+
+Constraints:
+- Windows; no local build. Use GitHub web editor or Codex to produce a single `solution.patch`.
+- Patch must be a unified diff against base commit <BASE_SHA>.
+- Patch must not include tests, Dockerfile, or test.sh.
+- Implement exactly: <paste Solution Criteria>.
+- Preserve backward compatibility.
+
+Outputs wanted now:
+1) A unified diff (only changed source files) ready to save as `solution.patch`.
+2) One-paragraph confirmation that behavior matches criteria (e.g., descending frequency + lexicographic tie-break; explicit lists untouched; `auto` untouched).
